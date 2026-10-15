@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — FMF - Fundació Mineralògica Fabre</title>
+<meta name="description" content="Projects supported by FMF - Fundació Mineralògica Fabre (NIF G26807578): the FMF community forums and the MVM Virtual Museum of Minerals.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="mark">FMF</span><span>Fundació Mineralògica Fabre</span></a>
+    <nav class="main">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="about.html" data-i18n="nav_about">About</a>
+      <a href="projects.html" aria-current="page" data-i18n="nav_projects">Projects</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
+      <span class="langbar" role="group" aria-label="Language">
+        <button type="button" data-lang="en" onclick="setLang('en')" aria-pressed="true">EN</button>
+        <button type="button" data-lang="es" onclick="setLang('es')" aria-pressed="false">ES</button>
+        <button type="button" data-lang="ca" onclick="setLang('ca')" aria-pressed="false">CA</button>
+      </span>
+    </nav>
+  </div>
+</div>
+
+<div class="page-head">
+  <div class="wrap">
+    <h1 data-i18n="proj_head_h">Projects</h1>
+    <p data-i18n="proj_head_p">The initiatives the foundation currently supports.</p>
+  </div>
+</div>
+
+<main>
+  <section>
+    <div class="wrap">
+      <div class="proj-grid">
+
+        <a class="project" href="https://www.foro-minerales.com" target="_blank" rel="noopener">
+          <div class="banner"><img src="assets/banner-foro-minerales.jpg" alt="Foro FMF" loading="lazy" onerror="this.style.display='none'"></div>
+          <div class="p-body">
+            <h3 data-i18n="proj_foro_name">FMF Forum — Spanish</h3>
+            <p data-i18n="proj_foro_desc">Spanish-language community forum on minerals and mineralogy, bringing together collectors, enthusiasts and researchers.</p>
+            <span class="p-visit"><span data-i18n="visit">Visit site</span> · foro-minerales.com →</span>
+          </div>
+        </a>
+
+        <a class="project" href="https://www.mineral-forum.com" target="_blank" rel="noopener">
+          <div class="banner"><img src="assets/banner-mineral-forum.jpg" alt="FMF Forum" loading="lazy" onerror="this.style.display='none'"></div>
+          <div class="p-body">
+            <h3 data-i18n="proj_eforo_name">FMF Forum — English</h3>
+            <p data-i18n="proj_eforo_desc">English-language community forum on minerals and mineralogy, connecting an international audience.</p>
+            <span class="p-visit"><span data-i18n="visit">Visit site</span> · mineral-forum.com →</span>
+          </div>
+        </a>
+
+        <a class="project" id="mvm-link" href="https://www.fabreminerals.com/MVM-Minerals_Virtual_Museum.php" target="_blank" rel="noopener">
+          <div class="banner"><img id="mvm-banner" src="assets/banner-fabreminerals_en.jpg" alt="MVM — Museu Virtual de Minerals" loading="lazy" onerror="this.style.display='none'"></div>
+          <div class="p-body">
+            <h3 data-i18n="proj_mvm_name">MVM — Virtual Museum of Minerals</h3>
+            <p data-i18n="proj_mvm_desc">An online museum of mineral specimens.</p>
+            <span class="p-visit"><span data-i18n="visit">Visit site</span> · fabreminerals.com →</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span><strong>FMF - Fundació Mineralògica Fabre</strong> · NIF G26807578</span>
+    <nav>
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="about.html" data-i18n="nav_about">About</a>
+      <a href="projects.html" data-i18n="nav_projects">Projects</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <span data-i18n="footer_reg">Registered with the Foundations Registry of the Generalitat de Catalunya</span>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+</body>
+</html>

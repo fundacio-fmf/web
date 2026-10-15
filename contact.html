@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — FMF - Fundació Mineralògica Fabre</title>
+<meta name="description" content="Contact FMF - Fundació Mineralògica Fabre (NIF G26807578). Registered office in Barcelona; email info@mineralogia.cat.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="mark">FMF</span><span>Fundació Mineralògica Fabre</span></a>
+    <nav class="main">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="about.html" data-i18n="nav_about">About</a>
+      <a href="projects.html" data-i18n="nav_projects">Projects</a>
+      <a href="contact.html" aria-current="page" data-i18n="nav_contact">Contact</a>
+      <span class="langbar" role="group" aria-label="Language">
+        <button type="button" data-lang="en" onclick="setLang('en')" aria-pressed="true">EN</button>
+        <button type="button" data-lang="es" onclick="setLang('es')" aria-pressed="false">ES</button>
+        <button type="button" data-lang="ca" onclick="setLang('ca')" aria-pressed="false">CA</button>
+      </span>
+    </nav>
+  </div>
+</div>
+
+<div class="page-head">
+  <div class="wrap">
+    <h1 data-i18n="contact_head_h">Contact</h1>
+    <p data-i18n="contact_head_p">How to reach the foundation.</p>
+  </div>
+</div>
+
+<main>
+  <section>
+    <div class="wrap">
+      <dl class="data">
+        <div><dt data-i18n="contact_email_h">Email</dt><dd><a href="mailto:info@mineralogia.cat">info@mineralogia.cat</a></dd></div>
+        <div><dt data-i18n="contact_addr_h">Registered office</dt><dd>Carrer de l'Arc de Sant Martí, 79 · 08032 Barcelona</dd></div>
+        <div><dt data-i18n="contact_id_h">Foundation</dt><dd><strong>FMF - Fundació Mineralògica Fabre</strong> · NIF G26807578</dd></div>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span><strong>FMF - Fundació Mineralògica Fabre</strong> · NIF G26807578</span>
+    <nav>
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="about.html" data-i18n="nav_about">About</a>
+      <a href="projects.html" data-i18n="nav_projects">Projects</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <span data-i18n="footer_reg">Registered with the Foundations Registry of the Generalitat de Catalunya</span>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+</body>
+</html>
